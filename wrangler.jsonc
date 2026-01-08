@@ -1,0 +1,22 @@
+{
+  // Worker'ın adı (Cloudflare dashboard'unda görünecek)
+  "name": "modernhr",
+  
+  // Uyumluluk tarihi (genellikle mevcut veya gelecek bir tarih)
+  "compatibility_date": "2026-01-08",
+  
+  // Statik asset'ler için ayarlar
+  "assets": {
+    // Asset dosyalarının bulunduğu dizin (örneğin build çıktısı)
+    "directory": "./dist",
+    
+    // Opsiyonel: Tarayıcı TTL (saniye cinsinden)
+    "browser_ttl": 86400  // 1 gün
+  },
+  
+  // Opsiyonel: Worker'ın ana script dosyası (varsayılan index.js)
+  "main": "index.js",
+  
+  // Opsiyonel: Environment değişkenleri
+
+}
