@@ -1,21 +1,23 @@
 {
   // Worker'ın adı (Cloudflare dashboard'unda görünecek)
   "name": "modernhr",
-  
+ 
   // Uyumluluk tarihi (genellikle mevcut veya gelecek bir tarih)
   "compatibility_date": "2026-01-08",
-  
+ 
+  // Node.js uyumluluğunu etkinleştir (process gibi API'ler için zorunlu)
+  "compatibility_flags": ["nodejs_compat"],
+ 
   // Statik asset'ler için ayarlar
   "assets": {
     // Asset dosyalarının bulunduğu dizin (örneğin build çıktısı)
     "directory": "./dist",
-    
-  },
   
+  },
+ 
   // Opsiyonel: Worker'ın ana script dosyası (varsayılan index.js)
   "main": "index.tsx",
-  
+ 
   // Opsiyonel: Environment değişkenleri
-
-
 }
+
