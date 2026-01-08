@@ -10,13 +10,12 @@
     // Asset dosyalarının bulunduğu dizin (örneğin build çıktısı)
     "directory": "./dist",
     
-    // Opsiyonel: Tarayıcı TTL (saniye cinsinden)
-    "browser_ttl": 86400  // 1 gün
   },
   
   // Opsiyonel: Worker'ın ana script dosyası (varsayılan index.js)
-  "main": "index.js",
+  "main": "index.tsx",
   
   // Opsiyonel: Environment değişkenleri
+
 
 }
